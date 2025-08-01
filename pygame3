@@ -1,0 +1,62 @@
+Haraval's 3-Player Pygame
+
+A simple and fun 3-player game built with Python's `pygame` library. Players compete to collect a moving box within a 60-second time limit. The player with the highest score wins!
+
+## 🎮 Game Features
+
+- 🧍‍♂️ Three-player simultaneous gameplay on the same keyboard
+- 🎯 Random target box that gives points on collision
+- ⏱️ 60-second timer to finish the game
+- 🏆 Scoreboard and winner announcement
+- 🚧 Boundary limits so cars don’t go off screen
+
+## 🧠 How to Play
+
+### Controls:
+
+| Player | Movement Keys       |
+|--------|---------------------|
+| Car 1  | Arrow Keys (↑ ↓ ← →) |
+| Car 2  | `Q`, `W`, `U`, `D`   |
+| Car 3  | `K`, `L`, `G`, `H`   |
+
+Each player moves their car to collide with the yellow box on the screen. When a car hits the box, they earn 1 point and the box relocates randomly. After 60 seconds, the scores are displayed, and the winner is announced.
+
+## 🖼️ Game Preview
+
+*(You can add screenshots here if available)*
+
+## 🛠️ Requirements
+
+- Python 3.x
+- `pygame` library
+
+To install Pygame, run:
+
+```bash
+pip install pygame
+🚀 How to Run
+Clone the repository or download the .py file.
+
+Run the script using:
+
+bash
+Copy code
+python your_game_file.py
+Play with your friends on the same keyboard!
+
+📂 Project Structure
+Copy code
+haraval_game/
+├── haraval_game.py
+└── README.md
+🏁 Future Ideas
+Add sound effects and background music
+
+Add countdown timer display
+
+Add obstacles or power-ups
+
+Use car images instead of rectangles
+
+🎉 Made with 💻 using Python and Pygame by Haraval.
